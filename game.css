@@ -1,8 +1,9 @@
+
 #Board
 {
-    width:320px;
-    height:320px;
-    border:1px solid black;
+    width:336px;
+    height:336px;
+    border:1px solid brown;
 }
 
 div
@@ -10,6 +11,6 @@ div
  width:40px;
  height:40px;
 float:left;
+border:1px solid white;  
 }
 
-/*test*/
