@@ -14,3 +14,13 @@ float:left;
 border:1px solid white;  
 }
 
+#buffer
+{
+ width:180px;
+ height:40px;
+float:left;
+position:relative;
+left:500px;
+
+
+}
