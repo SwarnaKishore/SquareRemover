@@ -1,15 +1,47 @@
 <!DOCTYPE HTML>
 <head>
-<link rel="stylesheet" href="game.css">		
+<link rel="stylesheet" href="game.css">
+<link rel="stylesheet" href="style/Animate.css">			
 </head>
 
+<style>
+
+</style>
+
 <body>
-	<div id="Board">
+	<div id="board">
 		
 	</div>	
-	<div id="buffer">
+	<h2>
+		Instructions to play
+	</h2>
+	<h3>
+		
+		"Square Remover" is a single player game <br/>
+		During the game you will need to make exactly 250 moves.<br/>
+		Each move consists of choosing two tiles on the board that share a side and swapping them with each other.<br/> 
+		At any point in the game, if there exists a 2x2 square on the board where all 4 tiles have the same color.<br/>
+		Your score is increased by 1 and 4 tiles of the square get replaced with other colors.<br/>
+		Your goal is to obtain the maximum possible score in the end of the game.<br/>
+		
+		test
+	</h3>
+	<div id="score1">
+
+	</div>
+	<div id="over">
 		
 	</div>
+	<div id="move">
+	
+	</div>
+
+	<h1 id='title'>Square Remover</h1>
 </body>
 
 <script src="game.js"></script>
+
+<script>
+	document.getElementById('title').className  = 'rubberBand animated' ;
+	
+</script>
